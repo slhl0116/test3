@@ -1,5 +1,4 @@
 <!DOCTYPE HTML>
-<!DOCTYPE html>
     <head>
         <meta charset="utf-8">
         <script src='../js/jquery-3.5.1.js'></script>
