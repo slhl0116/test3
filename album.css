@@ -1,0 +1,67 @@
+*{ margin:0; padding:0; color:white;}
+
+.mainmenu{ position:relative;}
+.nav{ position:absolute; top:50%; left:50%; transform:translate(-50%,40%);}
+.menu>li{
+    list-style-type: none; float:left; font-size:25px;
+    width:200px; height:60px;
+    background:white; opacity:0.2;
+    text-align: center; line-height: 60px;
+}
+.main{ width:100%; height:1100px; background-attachment: fixed;}
+.mp3{ position:absolute; top:50%; left:50%; transform: translate(-50%,0%); text-align: center; line-height:30px;}
+audio{ width:300px; height:40px; opacity:0.3;}
+b{ position:absolute; left:50%; top:5%; transform: translate(-50%,-50%); font-size:40px;}
+.song{ font-size:30px;}
+#mv{ position:absolute; top:10%; left:50%; transform: translate(-50%,0%); display:none;}
+
+#nightmare{ background-image: url('../img/악몽blur.jpg'); background-size: cover;}
+#nightmarealbum{
+    width:300px; height:300px;
+    background-image: url('../img/악몽.png');
+    background-repeat:no-repeat; background-size:cover;
+    position:absolute;
+    top:40%; left:50%; transform: translate(-50%,-90%);
+}
+#hanja{ font-family:Adobe 明體 Std;}
+.mp3{ font-family:Monotype Corsiva;}
+#faitm{ background-image: url('../img/faitmblur.jpg'); font-family:Monotype Corsiva; background-size: cover;}
+#faitmalbum{
+    width:300px; height:300px;
+    background-image: url('../img/faitm.png');
+    background-repeat:no-repeat; background-size:cover;
+    position:absolute;
+    top:40%; left:50%; transform: translate(-50%,-90%);
+}
+#prequel{ background-image: url('../img/prequelblur.jpg'); font-family:Monotype Corsiva; background-size: cover; height:1400px;}
+#prequelalbum{
+    width:300px; height:300px;
+    background-image: url('../img/prequel.png');
+    background-repeat:no-repeat; background-size:cover;
+    position:absolute;
+    top:40%; left:50%; transform: translate(-50%,-90%);
+}
+#ete{ background-image: url('../img/eteblur.jpg'); font-family:Monotype Corsiva; background-size: cover; height:1400px;}
+#etealbum{
+    width:300px; height:300px;
+    background-image: url('../img/ete.png');
+    background-repeat:no-repeat; background-size:cover;
+    position:absolute;
+    top:40%; left:50%; transform: translate(-50%,-90%);
+}
+#aitc{ background-image: url('../img/aitcblur.jpg'); font-family:Monotype Corsiva; background-size: cover; height:1400px;}
+#aitcalbum{
+    width:300px; height:300px;
+    background-image: url('../img/aitc.png');
+    background-repeat:no-repeat; background-size:cover;
+    position:absolute;
+    top:40%; left:50%; transform: translate(-50%,-90%);
+}
+#teon{ background-image: url('../img/teonblur.jpg'); font-family:Monotype Corsiva; background-size: cover; height:1400px;}
+#teonalbum{
+    width:300px; height:300px;
+    background-image: url('../img/teon.png');
+    background-repeat:no-repeat; background-size:cover;
+    position:absolute;
+    top:40%; left:50%; transform: translate(-50%,-90%);
+}
